@@ -1,39 +1,116 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Empresa Tech</title>
-    <link rel="stylesheet" href="/assets/css/global.css" />
+    <title>Newsletter | ShieldCore</title>
+    <link rel="stylesheet" href="../assets/css/global.css" />
   </head>
   <body>
     <header>
-      <a href="/" class="logo">
-        <span>
-          <h2>Empresa Tech</h2>
-        </span>
-      </a>
+      <a href="../index.html" class="logo">ShieldCore</a>
       <nav>
-        <a href="/" class="btn btn-secondary text-contrast-color"
-          >Página Inicial</a
-        >
-        <a href="/nossas-solucoes" class="btn btn-secondary text-contrast-color"
-          >Nossas soluções</a
-        >
-        <a href="/projetos" class="btn btn-secondary text-contrast-color"
-          >Projetos</a
-        >
-        <a href="/newsletter" class="btn btn-secondary text-contrast-color"
-          >Newsletter</a
-        >
-        <a href="/contato" class="btn btn-secondary text-contrast-color"
-          >Contato</a
-        >
+        <a href="../index.html">Início</a>
+        <a href="../historia/index.html">História</a>
+        <a href="../nossas-solucoes/index.html">Soluções</a>
+        <a href="../projetos/index.html">Projetos</a>
+        <a href="../newsletter/index.html" class="active">Newsletter</a>
+        <a href="../contato/index.html">Contato</a>
       </nav>
     </header>
-    <main>
+
+    <main class="page-section">
       <h1>Newsletter</h1>
+      <p class="intro">
+        Receba dicas sobre cibersegurança, prevenção de golpes e proteção de
+        dados para pequenas e médias empresas.
+      </p>
+
+      <div class="news-layout">
+        <form class="form-box">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="seuemail@exemplo.com" />
+
+          <button type="submit" class="btn">Cadastrar</button>
+        </form>
+
+        <aside>
+          <h2>Conteúdos enviados</h2>
+          <ul class="simple-list">
+            <li>Dicas de segurança digital para pequenas empresas.</li>
+            <li>Alertas sobre golpes comuns contra negócios.</li>
+            <li>Boas práticas para senhas, backups e acessos.</li>
+            <li>Ideias para treinar equipes contra ataques cibernéticos.</li>
+          </ul>
+        </aside>
+      </div>
+
+      <section class="content-section">
+        <h2>Últimas edições</h2>
+        <div class="topic-list">
+          <article class="topic">
+            <h3>Edição 01</h3>
+            <p>
+              Como senhas fortes e autenticação em duas etapas reduzem riscos
+              de invasão.
+            </p>
+          </article>
+          <article class="topic">
+            <h3>Edição 02</h3>
+            <p>
+              Como reconhecer e-mails falsos, links suspeitos e mensagens de
+              golpe.
+            </p>
+          </article>
+          <article class="topic">
+            <h3>Edição 03</h3>
+            <p>
+              Por que backups seguros ajudam empresas a se recuperar de ataques.
+            </p>
+          </article>
+          <article class="topic">
+            <h3>Edição 04</h3>
+            <p>
+              Como criar uma rotina simples de segurança digital no trabalho.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2>Calendário editorial</h2>
+        <table class="simple-table">
+          <thead>
+            <tr>
+              <th>Mês</th>
+              <th>Tema</th>
+              <th>Objetivo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Março</td>
+              <td>Senhas e acessos</td>
+              <td>Mostrar como proteger contas importantes</td>
+            </tr>
+            <tr>
+              <td>Abril</td>
+              <td>Golpes digitais</td>
+              <td>Explicar sinais de phishing e fraude</td>
+            </tr>
+            <tr>
+              <td>Maio</td>
+              <td>Backup e recuperação</td>
+              <td>Apresentar cuidados contra perda de dados</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
-    <footer>&copy; Copyright 2026 - Empresa Tech</footer>
+
+    <footer>&copy; 2026 ShieldCore. Todos os direitos reservados.</footer>
   </body>
 </html>
