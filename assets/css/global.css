@@ -289,23 +289,27 @@ nav a.active {
 }
 
 .founders-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
 .founder-card {
   background-color: var(--card-color);
   border-radius: 8px;
+  width: 350px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(23, 37, 42, 0.08);
 }
 
 .founder-card img {
   width: 100%;
-  height: 230px;
+  height: 280px;
   display: block;
-  object-fit: cover;
+  background-color: #eeeeee;
+  object-fit: contain;
+  object-position: center top;
 }
 
 .founder-card div {
