@@ -1,39 +1,118 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Empresa Tech</title>
-    <link rel="stylesheet" href="/assets/css/global.css" />
+    <title>Contato | ShieldCore</title>
+    <link rel="stylesheet" href="../assets/css/global.css" />
   </head>
   <body>
     <header>
-      <a href="/" class="logo">
-        <span>
-          <h2>Empresa Tech</h2>
-        </span>
-      </a>
+      <a href="../index.html" class="logo">ShieldCore</a>
       <nav>
-        <a href="/" class="btn btn-secondary text-contrast-color"
-          >Página Inicial</a
-        >
-        <a href="/nossas-solucoes" class="btn btn-secondary text-contrast-color"
-          >Nossas soluções</a
-        >
-        <a href="/projetos" class="btn btn-secondary text-contrast-color"
-          >Projetos</a
-        >
-        <a href="/newsletter" class="btn btn-secondary text-contrast-color"
-          >Newsletter</a
-        >
-        <a href="/contato" class="btn btn-secondary text-contrast-color"
-          >Contato</a
-        >
+        <a href="../index.html">Início</a>
+        <a href="../historia/index.html">História</a>
+        <a href="../nossas-solucoes/index.html">Soluções</a>
+        <a href="../projetos/index.html">Projetos</a>
+        <a href="../newsletter/index.html">Newsletter</a>
+        <a href="../contato/index.html" class="active">Contato</a>
       </nav>
     </header>
-    <main>
+
+    <main class="page-section">
       <h1>Contato</h1>
+      <p class="intro">
+        Quer proteger melhor sua empresa? Envie uma mensagem para a equipe da
+        ShieldCore.
+      </p>
+
+      <div class="contact-layout">
+        <form class="form-box">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="seuemail@exemplo.com" />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" placeholder="Conte quais riscos sua empresa quer reduzir"></textarea>
+
+          <button type="submit" class="btn">Enviar mensagem</button>
+        </form>
+
+        <section class="highlight-box">
+          <h2>Atendimento</h2>
+          <p><strong>E-mail:</strong> contato@shieldcore.com.br</p>
+          <p><strong>Telefone:</strong> (11) 4002-2026</p>
+          <p><strong>Endereço:</strong> São Paulo, SP</p>
+          <p>
+            Horário de atendimento: segunda a sexta, das 9h às 18h.
+          </p>
+        </section>
+      </div>
+
+      <section class="content-section">
+        <h2>Como podemos ajudar</h2>
+        <div class="topic-list">
+          <article class="topic">
+            <h3>Quero proteger meus dados</h3>
+            <p>
+              A ShieldCore pode orientar sua empresa sobre armazenamento,
+              acesso e proteção de informações importantes.
+            </p>
+          </article>
+          <article class="topic">
+            <h3>Quero evitar golpes</h3>
+            <p>
+              Podemos imaginar treinamentos para a equipe reconhecer e-mails,
+              mensagens, links e arquivos suspeitos.
+            </p>
+          </article>
+          <article class="topic">
+            <h3>Quero melhorar acessos</h3>
+            <p>
+              A empresa pode mapear contas, senhas e permissões para reduzir
+              riscos de invasão.
+            </p>
+          </article>
+          <article class="topic">
+            <h3>Quero uma consultoria</h3>
+            <p>
+              Também oferecemos orientação para criar políticas de segurança,
+              backup e resposta a incidentes.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2>Perguntas frequentes</h2>
+        <div class="timeline">
+          <article>
+            <h3>Quais empresas podem contratar?</h3>
+            <p>
+              Atendemos pequenas e médias empresas que querem melhorar sua
+              proteção digital sem depender de uma equipe interna especializada.
+            </p>
+          </article>
+          <article>
+            <h3>Preciso ter uma equipe de TI?</h3>
+            <p>
+              Não. A ShieldCore atende empresas que ainda não possuem equipe
+              técnica própria e precisam de orientação clara para começar.
+            </p>
+          </article>
+          <article>
+            <h3>Como começa o atendimento?</h3>
+            <p>
+              O primeiro passo é um diagnóstico para entender os acessos,
+              sistemas, dados e principais riscos da empresa.
+            </p>
+          </article>
+        </div>
+      </section>
     </main>
-    <footer>&copy; Copyright 2026 - Empresa Tech</footer>
+
+    <footer>&copy; 2026 ShieldCore. Todos os direitos reservados.</footer>
   </body>
 </html>
